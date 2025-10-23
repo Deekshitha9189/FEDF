@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <style>
+    body { background-color: skyblue; text-align: center; font-family: Arial; }
+    .menu { display: flex; justify-content: center; background-color: black; padding: 10px; }
+    .menu a { color: white; text-decoration: none; margin: 0 20px; font-weight: bold; }
+    .menu a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <a href="homepage.html">Home</a>
+    <a href="registration.html">Registration</a>
+    <a href="login.html">Login</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <table width="100%">
+    <tr>
+      <td><img src="klu_logo.png" height="80"></td>
+      <td><h1>Welcome to online product store</h1></td>
+    </tr>
+  </table>
+
+  <!-- 🎵 Spotify Music Player -->
+  <div style="margin-top: 40px;">
+    <h3>Now Playing 🎶</h3>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" 
+      src="https://open.spotify.com/embed/track/0qWFmXLCsisEfVJzVyShfk?utm_source=generator" 
+      width="100%" height="352" frameborder="0" allowfullscreen="" 
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+      loading="lazy">
+    </iframe>
+  </div>
+</body>
+</html>
